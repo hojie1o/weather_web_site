@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="theme-toggle">
+        <button id="toggle-theme">🌞</button>
+    </div>
+  <div class="container">
+    <div class="search">
+      <input type="text" id="search-input" placeholder="Enter city name">
+      <button onclick="changeCity()">🔍</button>
+    </div>
+
+    <div class="weather-card">
+      <div id="weatherInfo">
+        <h2 id="city-name"></h2>
+        <img id="weather-icon" src="" alt="" />
+        <div id="weather"></div>
+      </div>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
